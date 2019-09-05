@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
+title:               Bader Alafnan
 tagline:             A Moderately Okay Data Science Blog
 url:                 http://alafnan.github.io
 paginate:            2
@@ -18,7 +18,7 @@ sass:
 # About/contact
 author:
   name:              Zach Miller
-  url:               https://twitter.com/zaglamir
+  url:               https://twitter.com/BaderAlafnan1
   email:             zach@thisismetis.com
 
 # Custom vars
