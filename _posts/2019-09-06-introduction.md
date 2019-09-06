@@ -1,21 +1,16 @@
 ---
 layout: post
-title: Introduction 
+title: Introduction to Data Science
 ---
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+*Data has always been vital to any kind of decision making. Today’s world runs completely on data and none of today's organizations would survive without data-driven decision making and strategic plans. There are several roles in the industry today that deal with data because of its invaluable insights and trust.
 
 -----
 
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
+Let's see the difference between Data Science, Machine Learning, and Big Data.
+Below is a video that shows the difference between Data Scientist vs Data Analyst vs Data Engineer. 
+[The difference between Data Scientist vs Data Analyst vs Data Engineer](https://www.youtube.com/watch?v=5mCnQz3wwAY)
 
-There are currently three themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-* [Enfield](http://enfield.getpoole.com)
-
-Learn more and contribute on [GitHub]({{ site.github.repo }}).
 
 ### What's included
 
@@ -30,12 +25,16 @@ Poole is a streamlined Jekyll site designed and built as a foundation for buildi
 
 Additional features are available in individual themes.
 
-### Browser support
+### Read more:
 
-Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+* [Saudi Federation for Cybersecurity, Programming and Drones](https://safcsp.org.sa/en.html)
+* [Metis: Data Science Training](https://www.thisismetis.com/)
 
 ### Download
 
 These themes are developed on and hosted with GitHub. Head to the [GitHub repository]({{ site.github.repo }}) for downloads, bug reports, and features requests.
 
 Thanks!
+
+
+
