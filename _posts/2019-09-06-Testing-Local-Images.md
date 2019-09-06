@@ -15,8 +15,8 @@ Below is a video that shows the difference between Data Scientist vs Data Analys
 
 ![Image test]({{ site.url }}/images/hdsi.jpg)
 
-### Other things
-* Like
-* lists
-* and 
-* stuff
+
+### Read more:
+* [Saudi Federation for Cybersecurity, Programming and Drones](https://safcsp.org.sa/en.html)
+* [Metis: Data Science Training](https://www.thisismetis.com/)
+
