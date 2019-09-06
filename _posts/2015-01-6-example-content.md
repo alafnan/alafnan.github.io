@@ -12,7 +12,7 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
 <style>
 #project1 
     font-size: 2em;
-    color: #A17419;
+    color: #E1A52D;
     font-weight: bold;
 }
 </style>
