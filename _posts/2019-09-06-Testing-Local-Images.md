@@ -11,7 +11,7 @@ Let's see the difference between Data Science, Machine Learning, and Big Data.
 Below is a video that show the difference between Data Scientist vs Data Analyst vs Data Engineer. 
 
 
-[the difference between Data Scientist vs Data Analyst vs Data Engineer](https://www.youtube.com/watch?v=5mCnQz3wwAY)
+[The difference between Data Scientist vs Data Analyst vs Data Engineer](https://www.youtube.com/watch?v=5mCnQz3wwAY)
 
 ![Image test]({{ site.url }}/images/AlanLeeShireGandalf.JPG)
 
