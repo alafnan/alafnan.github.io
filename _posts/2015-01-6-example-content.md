@@ -9,7 +9,8 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
 </div>
 
 <h1 style="font-size:1.5em; color:#880D0D; margin-top: 3rem;">Project objectives:</h1>
-<div style="margin-bottom: 0.5rem;   padding: 1rem;   color: #000000;   background-color: #E1DFDF;"
+
+<div style="margin-bottom: 0.5rem;   padding: 1rem;   color: #000000;   background-color: #E1DFDF;">
 - To help WomenTechWomensYes (WTWY) organisation to optimise the placement of thier street teams
 - To provide WTWY with bussiness solutions to reduce the cost of thier advertisment project
 - To provide WTWY with the optimum days and times at top five utilised stations. 
