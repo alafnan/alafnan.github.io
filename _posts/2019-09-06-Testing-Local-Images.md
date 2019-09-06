@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is Data Science
+title: What is Data Science ?
 ---
 
 This bolg provides you with some fundemental tools and principles needed to be a data scientist. The first thing that perhapse comes to your mind is what is data science and we care about it ?
