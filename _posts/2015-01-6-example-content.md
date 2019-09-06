@@ -8,7 +8,7 @@ title: Metis Project-01 MTA Turnstile Data Analysis
 Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alghamdi and Abdulrahman Alkhthlan
 </div>
 
-<h1 style="font-size:1.5em; color:#E1A52D;">Project objectives:</h1>
+<h1 style="font-size:1.5em; color:#E1A52D; margin-top: 3rem;">Project objectives:</h1>
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
