@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metis Project-01 MTA Turnstile Data Analysis
+title: Project-01 MTA Turnstile Data Analysis
 ---
 
 
