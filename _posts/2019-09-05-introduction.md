@@ -24,6 +24,6 @@ Below is a video that shows the difference between Data Scientist vs Data Analys
 
 * [Linkedin](https://www.linkedin.com/in/bader-alafnan-353480122/)
 * [Research Gate](https://www.researchgate.net/profile/Bader_Alafnan)
-* [Twitter](https://www.thisismetis.com/)
+* [Twitter](https://twitter.com/BaderAlafnan1)
 
 
