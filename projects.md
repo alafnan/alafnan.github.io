@@ -1,10 +1,10 @@
-
 ---
-layout: post
-title: What is this blog is all about ?
+layout: page
+title: Archive
 ---
 
-This bolg provides you with some fundamental tools and principles needed to be a data scientist. The first thing that perhaps comes to your mind is what is data science and we care about it?
+## Blog Posts
 
-
-
+{% for post in site.posts %}
+  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+{% endfor %}
