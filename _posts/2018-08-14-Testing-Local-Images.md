@@ -1,19 +1,12 @@
 ---
 layout: post
-title: Zach's Test Post
+title: Bader Alafnan
 ---
-
-This is a test post. 
-
-To make a post, you must follow the naming convention shown for this file,
-with the data as the first part of the file name, seperated by dashes. Then
-the name of the post as you want it to be stored, with spaces as dashes.
-Finally, you must also keep the 
+In the first post i will be talking about MTA Turnsile Data Analysis
 
 ```
 ---
-layout: post
-title: Zach's Test Post
+The code will be written here
 ---
 ```
 
