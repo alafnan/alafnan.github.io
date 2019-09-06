@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Bader Alafnan
-tagline:             Personal Data Science Blog
+tagline:             Data Science and Machine Learning Blogs
 url:                 http://alafnan.github.io
 paginate:            2
 baseurl:             ""
@@ -35,4 +35,4 @@ gems:
 pages_list:       
   About me: '/about me'
   Archive: '/archive'
-  Feed: '/index.html'
+  Projects: '/index.html'
