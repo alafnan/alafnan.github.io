@@ -22,9 +22,9 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
   <li>To provide (WTWY) with the optimum <strong>UNITS</strong> inside each of the five stations.</li>
   <li>To provide (WTWY) with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
 
-<div style="margin-bottom: 1.2rem; padding: 1rem; background-color: ##F2552C; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; text-align: left;" >
-<h1 style="font-size:1.5em; color:#FFFFFF; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data:</h1>
-[Turnstile Data MTA Website](http://web.mta.info/developers/turnstile.html) </div>
+
+<h1 style="font-size:1em; color:#FFFFFF; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data:</h1>
+Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turnstile.html)
 
 
 ## Inline HTML elements
