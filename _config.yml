@@ -35,4 +35,4 @@ gems:
 pages_list:       
   About me: '/about me'
   Archive: '/archive'
-  Projects: '/projects..md'
+  Projects: '/projects'
