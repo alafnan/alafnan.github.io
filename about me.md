@@ -17,3 +17,9 @@ providing engineering service in oil-well technology. Currently, i am focusing o
 
 ## Personal Contacts
 
+* Phone Number: +966551904294
+* Email: Bader.alafnan@hotmail.com
+* [Linkedin](https://www.linkedin.com/in/bader-alafnan-353480122/)
+* [Research Gate](https://www.researchgate.net/profile/Bader_Alafnan)
+* [Twitter](https://twitter.com/BaderAlafnan1)
+
