@@ -8,10 +8,14 @@ title: Project-01 MTA Turnstile Data Analysis
 Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alghamdi and Abdulrahman Alkhthlan
 </div>
 
-<h1 style="font-size:1.5em; color:#E1A52D; margin-top: 3rem;">Project objectives:</h1>
-
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
+<h1 style="font-size:1.5em; color:#880D0D; margin-top: 3rem;">Project objectives:</h1>
+<div style="margin-bottom: 0.5rem;   padding: 1rem;   color: #000000;   background-color: #E1DFDF;"
+- To help WomenTechWomensYes (WTWY) organisation to optimise the placement of thier street teams
+- To provide WTWY with bussiness solutions to reduce the cost of thier advertisment project
+- To provide WTWY with the optimum days and times at top five utilised stations. 
+- To provide WTWY with the optimum units inside each of the five stations.
+- To provide WTWY with a pi chart that shows the percentage of utilised stations. 
+</div>
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 ## Inline HTML elements
