@@ -33,6 +33,6 @@ gems:
 
 # Page List
 pages_list:       
-  About: '/about'
+  About: '/about me'
   Archive: '/archive'
   Feed: '/index.html'
