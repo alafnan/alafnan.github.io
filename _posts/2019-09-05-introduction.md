@@ -8,13 +8,22 @@ Data has always been vital to any kind of decision making. Today’s world runs 
 -----
 
 Let's see the difference between Data Science, Machine Learning, and Big Data.
-Below is a video that shows the difference between Data Scientist vs Data Analyst vs Data Engineer :smiley:. 
+Below is a video that shows the difference between Data Scientist vs Data Analyst vs Data Engineer:smile:.
 
 [The difference between Data Scientist vs Data Analyst vs Data Engineer](https://www.youtube.com/watch?v=5mCnQz3wwAY)
 
 ![Image test]({{ site.url }}/images/hdsi.jpg)
 
+
 ### Read more:
 
 * [Saudi Federation for Cybersecurity, Programming and Drones](https://safcsp.org.sa/en.html)
 * [Metis: Data Science Training](https://www.thisismetis.com/)
+
+### Contacts 
+
+* [Linkedin](https://www.linkedin.com/in/bader-alafnan-353480122/)
+* [Research Gate](https://www.researchgate.net/profile/Bader_Alafnan)
+* [Twitter](https://www.thisismetis.com/)
+
+
