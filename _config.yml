@@ -34,4 +34,4 @@ gems:
 # Page List
 pages_list:       
   About me: '/about me'
-  Projects lists: '/archive'
+  Projects list: '/archive'
