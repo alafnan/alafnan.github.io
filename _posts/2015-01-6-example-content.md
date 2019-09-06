@@ -8,7 +8,10 @@ title: Project-01 MTA Turnstile Data Analysis
 Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alghamdi and Abdulrahman Alkhthlan
 </div>
 
-<h1 style="font-size:1.5em; color:#880D0D; margin-top: 3rem; margin-bottom: 1rem;">Project objectives:</h1>
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Overview:</h1>
+<p> WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As they are new and inclusive organization, they are trying to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.To this end they place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to thier gala. Where they like to solicit our engagement is to use MTA subway data, which is available freely from the city, to help they optimize the placement of thier street teams, such that they can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.</p>
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project objectives:</h1>
 
 <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F0EDE5; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
   <ul>
