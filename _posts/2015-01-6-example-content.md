@@ -23,7 +23,7 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
   <li>To provide (WTWY) with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
 
 
-<h1 style="font-size:1em; color:#FFFFFF; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data:</h1>
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data:</h1>
 Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turnstile.html)
 
 
