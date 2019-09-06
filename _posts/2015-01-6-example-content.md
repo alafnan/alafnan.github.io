@@ -17,10 +17,10 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
 <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F0EDE5; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; text-align: left;" >
   <ul>
   <li>To help <strong>WomenTechWomensYes</strong> (WTWY) organisation to optimise the placement of thier street teams.</li>
-  <li>To provide WTWY with <strong>bussiness solutions</strong> to reduce the <strong>cost</strong> of thier advertisment project.</li>
-  <li>To provide WTWY with the <strong>optimum days</strong> and <strong>times</strong> at top five utilised <strong>stations</strong>.</li> 
-  <li>To provide WTWY with the optimum <strong>UNITS</strong> inside each of the five stations.</li>
-  <li>To provide WTWY with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
+  <li>To provide (WTWY) with <strong>bussiness solutions</strong> to reduce the <strong>cost</strong> of thier advertisment project.</li>
+  <li>To provide (WTWY) with the <strong>optimum days</strong> and <strong>times</strong> at top five utilised <strong>stations</strong>.</li> 
+  <li>To provide (WTWY) with the optimum <strong>UNITS</strong> inside each of the five stations.</li>
+  <li>To provide (WTWY) with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
