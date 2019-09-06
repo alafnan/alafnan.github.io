@@ -10,13 +10,13 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
 
 <h1 style="font-size:1.5em; color:#880D0D; margin-top: 3rem; margin-bottom: 1rem;">Project objectives:</h1>
 
-<div style="margin-bottom: 0.5rem;   padding: 1rem;   color: #000000;   background-color: #E1DFDF;">
+<div style="margin-bottom: 0.5rem;   padding: 1rem;   color: #FFFFFF;   background-color: #6B5B95; font-family: Arial, Helvetica, sans-serif">
   <ul>
-  <li>To help WomenTechWomensYes (WTWY) organisation to optimise the placement of thier street teams.</li>
-  <li>To provide WTWY with bussiness solutions to reduce the cost of thier advertisment project.</li>
-  <li>To provide WTWY with the optimum days and times at top five utilised stations.</li> 
-  <li>To provide WTWY with the optimum units inside each of the five stations.</li>
-  <li>To provide WTWY with a pi chart that shows the percentage of utilised stations.</li> </ul> </div>
+  <li>To help <strong>WomenTechWomensYes</strong> (WTWY) organisation to optimise the placement of thier street teams.</li>
+  <li>To provide WTWY with <strong>bussiness solutions</strong> to reduce the <strong>cost</strong> of thier advertisment project.</li>
+  <li>To provide WTWY with the <strong>optimum days</strong> and <strong>times</strong> at top five utilised <strong>stations</strong>.</li> 
+  <li>To provide WTWY with the optimum <strong>UNITS</strong> inside each of the five stations.</li>
+  <li>To provide WTWY with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
