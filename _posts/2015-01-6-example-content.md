@@ -4,7 +4,7 @@ title: Project-01 MTA Turnstile Data Analysis
 ---
 
 
-<div style="margin-bottom: 1rem;   padding: 1rem;   color: #FFFFFF;   background-color: #000000;">
+<div style="margin-bottom: 1rem;   padding: 1rem;   color: #FFB90F;   background-color: #000000; font-family: Arial, Helvetica, sans-serif; font-size:0.9em;">
 Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alghamdi and Abdulrahman Alkhthlan
 </div>
 
