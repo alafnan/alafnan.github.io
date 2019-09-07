@@ -82,10 +82,19 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Days (May-2019):</h1>
 
-<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F6D155; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
-  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrate the peak days for all stations in NEW YOURK in may 2019. We can notice that during the <strong style="Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #C0AB8E; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates the peak days for all stations in NEW YOURK in may 2019. We can notice that during the <strong style="Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
 </div>
-![rush hours]({{ site.url }}/images/Flow over the day.png)
+![peak days]({{ site.url }}/images/Flow over the day.png)
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Top 5 busiest Stations in New York (May-2019):</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #C0AB8E; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates Top 5 busiest Stations in New York (May-2019) so we can <strong style="color:Maroon";>Narrow down our search and easy for the company to place thier teams at these five stations ONLY</strong>. We can notice that during the <strong style="Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
+</div>
+![Top five stations]({{ site.url }}/images/Top 5.png)
+
 
 ### Lists
 
