@@ -12,6 +12,19 @@ best 25 programmers in the UK, for developing software applications in C++, JAVA
 engineering and project management experience working for Saudi Aramco in oil and gas business
 providing engineering service in oil-well technology. Currently, i am focusing on data science and machine learning. </p> </div>
 
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Personal Achievements:</h1>
+
+  <div> <ul>
+  <li> MSc in Telecommunications and Wirless System Engineering from University of Liverpool in 2018.</li>
+  <li> Beng in Electrical and Electronics Engineering from Manchester Metropolitan University.</li>
+  <li> Winner of IBM mainframe programming contest and gained thier green badge.</li> 
+  <li> Five awards given by Saudi Arabian Bureau in london for achieving outstanding results during my studies.</li>
+  <li> Best graduate student at University of Liverpool.</li>
+  <li> Best graduate student at Manchester Metropolitan University.</li>
+  <li> Best final engineering project at Manchester Metropolitan University.</li>
+  <li> Second best final engineering project at the University of Liverpool.</li> </ul> </div>
+
+
 ![Image test]({{ site.url }}/images/bv.png)
 
 ## Personal Contacts
