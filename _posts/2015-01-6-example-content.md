@@ -110,7 +110,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
   <p style="text-align: justify; text-justify: inter-word;"> The Pi chart below shows the recommended number of workers per station. for instance, if the company want to hire 10 people to collect sign ups 34, they should hire 3 people at ST-PENN station in order to optimise thier placement of thier teams</p> <i class="glyphicon glyphicon-thumbs-up"></i></div>
 ![units]({{ site.url }}/images/pro4.jpg)
 
-
+<div style="margin-bottom: 1.2rem; padding: 1rem" >
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Look at the stations using google map!</h1>
 <div id="googleMap" style="width:100%;height:400px;"></div>
 <script>
@@ -123,7 +123,8 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKHCCDLG_CnNTFEPWhTFUryHcCfkapwyw&callback=myMap"></script>
+</div>
 
-Have a look at my Linkedin profile!? <a href="https://www.linkedin.com/in/bader-alafnan-353480122/">Open an issue.</a>
+Have a look at my Linkedin profile!? <a href="https://www.linkedin.com/in/bader-alafnan-353480122/">Bader Alafnan 2019</a>
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
