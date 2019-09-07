@@ -39,32 +39,7 @@ Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turn
 
 
 
-{% highlight js %}
-// Importing main libraries 
-import datetime
-import pandas as pd
-import collections
-import matplotlib.pyplot as plt
-%matplotlib inline
-import seaborn
-import os
 
-// Read the data file
-Train = pd.read_csv('turnstile_190511.txt')
-// remove spaces if there is space in the columns
-Train.columns = [column.strip() for column in list(Train.columns)]
-// Shift up one column and substract from the another 
-Train['D_ENTRIES'] = Train.ENTRIES.shift(-1)-Train.ENTRIES
-Train['D_EXITS'] = Train.EXITS.shift(-1)-Train.EXITS
-//git rid of unexpected values by estimating the max and min 
-Train = Train[(Train.D_ENTRIES> 0) & (Train.D_ENTRIES < 4000) & 
-                (Train.D_EXITS > 0) & (Train.D_EXITS < 4000)]
-// convert date and time from str to datetime64
-Train['DATE_TIME'] = pd.to_datetime(Train.DATE + Train.TIME, format='%m/%d/%Y%H:%M:%S')
-// Deleting unnecessary files from the data
-Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
-
-{% endhighlight %}
 
 ## Inline HTML elements
 
