@@ -104,7 +104,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 ![units]({{ site.url }}/images/units.png)
 
 
-<h1style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Look at the stations using google map!</h1>
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Look at the stations using google map!</h1>
 
 <div id="googleMap" style="width:100%;height:400px;"></div>
 
