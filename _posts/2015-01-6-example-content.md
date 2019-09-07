@@ -118,7 +118,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<script src="https://www.google.com/maps/place/34+St+-+Penn+Station/@40.7467644,-73.9863961,14z/data=!4m5!3m4!1s0x89c259ade8727e4f:0x334395220238c617!8m2!3d40.752287!4d-73.993391"></script>
 
 
 ### Lists
