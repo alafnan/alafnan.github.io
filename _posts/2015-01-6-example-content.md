@@ -67,7 +67,10 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Results:</h1>
-<p style="text-align: justify; text-justify: inter-word;"> The following figure shows the resuls of our data analysis, the peak hours and peak days of the entire month (may-2019) for all stations in <strong style="color:Blue">New York</strong>, after that we will show you the top 5 busiest stations in New York and the top 5 busiest <strong style="color: Maroon;">UNITS</strong> at the top station </p>
+<p style="text-align: justify; text-justify: inter-word;"> The following figure shows the what you will be looking at in the results of our data analysis, the peak hours and peak days of the entire month (may-2019) for all stations in <strong style="color:Blue">New York</strong>, after that we will show you the top 5 busiest stations in New York and the top 5 busiest <strong style="color: Maroon;">UNITS</strong> at the top station </p>
+
+![Project Approach Image]({{ site.url }}/images/pro3.jpg)
+
 
 ### Lists
 
