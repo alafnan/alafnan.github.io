@@ -79,6 +79,14 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 </div>
 ![rush hours]({{ site.url }}/images/Rush hours.png)
 
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Days (May-2019):</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrate the peak days for all stations in NEW YOURK in may 2019. We can notice that during the <strong style="Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
+</div>
+![rush hours]({{ site.url }}/images/Flow over the day.png)
+
 ### Lists
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
