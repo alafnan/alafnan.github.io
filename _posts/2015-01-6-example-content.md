@@ -40,7 +40,6 @@ Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turn
 
 
 {% highlight python %}
-
 # Importing main libraries 
 import datetime
 import pandas as pd
