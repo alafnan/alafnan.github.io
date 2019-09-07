@@ -104,11 +104,13 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 ![units]({{ site.url }}/images/units.png)
 
 
-<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;"> Recommended number of workers per station(May-2019):</h1>
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;"> Recommended number of workers per station:</h1>
 
 <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
   <p style="text-align: justify; text-justify: inter-word;"> The Pi chart below shows the recommended number of workers per station. for instance, if the company want to hire 10 people to collect sign ups 34, they should hire 3 people at ST-PENN station in order to optimise thier placement of thier teams</p> <i class="glyphicon glyphicon-thumbs-up"></i></div>
 ![units]({{ site.url }}/images/pro4.jpg)
+
+
 
 <div style="margin-bottom: 1.2rem; padding: 1rem" >
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Look at the stations using google map!</h1>
