@@ -27,6 +27,10 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
 Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turnstile.html)
 
 
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project Approach:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The figure below shows the project approach that we followed to make the project work, starting with collecting, understanding, analysing the data and finally give solutions to the organisation. </p>
+![Image test]({{ site.url }}/images/pro1.jpg)
+
 ## Inline HTML elements
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
