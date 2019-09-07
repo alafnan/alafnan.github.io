@@ -36,7 +36,7 @@ Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turn
 ![Data]({{ site.url }}/images/pro2.jpg)
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Important codes for data cleansing:</h1>
-<p style="text-align: justify; text-justify: inter-word;"> The following line of codes are exteremly important to start with, firstly, the total number of entries and exsits per 4 hours which is represented by each row is calculated via shift method of the origional row and its shifted copy and the it is stored in a new column which is called <i>D_ENTRIES</i> in this code. to avoid any negative or unexpected data from the dataframe we used 0 > dataframe values <4000 limits which are obviously reasonable limits. finally, we get rid of the unnecessary data from the dataframe.</p>
+<p style="text-align: justify; text-justify: inter-word; color: #001f3f;"> The following line of codes are exteremly important to start with, firstly, the total number of entries and exsits per 4 hours which is represented by each row is calculated via shift method of the origional row and its shifted copy and the it is stored in a new column which is called <i>D_ENTRIES</i> in this code. to avoid any negative or unexpected data from the dataframe we used 0 > dataframe values <4000 limits which are obviously reasonable limits. finally, we get rid of the unnecessary data from the dataframe.</p>
 {% highlight js %}
 // Importing main libraries 
 import datetime
@@ -66,43 +66,14 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 
 
 
-## Inline HTML elements
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
 
-Most of these elements are styled by browsers with few modifications on our part.
 
-## Footnotes
-
-Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
-
-{% highlight text %}
-Clicking this number[^fn-sample_footnote]
-{% endhighlight %}
-
-Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
-
-{% highlight text %}
-[^fn-sample_footnote]: Handy! Now click the return link to go back.
-{% endhighlight %}
-
-You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
 
 ## Heading
 
 Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Code
-
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
 ### Gists via GitHub Pages
 
