@@ -118,7 +118,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd82PsxCNbuZmYUTYF3AlJiixTi7pHPLM&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKHCCDLG_CnNTFEPWhTFUryHcCfkapwyw=myMap"></script>
 
 
 ### Lists
