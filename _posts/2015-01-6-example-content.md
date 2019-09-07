@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project-01 MTA Turnstile Data Analysis
+title: Project-01 MTA Turnstile Analysis
 ---
 
 
@@ -23,13 +23,16 @@ Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alg
   <li>To provide (WTWY) with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
 
 
-<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data:</h1>
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data from MTA:</h1>
 Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turnstile.html)
 
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project Approach:</h1>
 <p style="text-align: justify; text-justify: inter-word;"> The figure below shows the project approach that we followed to make the project work, starting with collecting, understanding, analysing the data and finally give solutions to the organisation. </p>
 ![Image test]({{ site.url }}/images/pro1.jpg)
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Visualising the data:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The data was visualised using Jupyter Notebook as shown in the figure below. Notice that the data were taken from file <strong>turnstile_190511</strong>. </p>
 
 ## Inline HTML elements
 
