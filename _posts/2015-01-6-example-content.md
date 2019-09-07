@@ -75,7 +75,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Hours (May-2019):</h1>
 
 <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
-  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrate the peak hours for all stations in NEW YOURK in may 2019. We can notice that there are three main hours we can focus on which are at <strong style="Maroon;">8 AM, 12 PM</strong> and <strong style="Maroon;">4 PM</strong> because during these hours the number of visitors reaches</p>
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrate the peak hours for all stations in NEW YOURK in may 2019. We can notice that there are three main hours we can focus on which are at <strong style="color:Maroon;">8 AM, 12 PM</strong> and <strong style="Maroon;">4 PM</strong> because during these hours the number of visitors reaches</p>
 </div>
 ![rush hours]({{ site.url }}/images/Rush hours.png)
 
@@ -83,7 +83,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Days (May-2019):</h1>
 
 <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
-  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates the peak days for all stations in NEW YOURK in may 2019. We can notice that during the <strong style="Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates the peak days for all stations in NEW YOURK in may 2019. We can notice that during the <strong style="color:Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
 </div>
 ![peak days]({{ site.url }}/images/Flow over the day.png)
 
@@ -91,7 +91,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Top 5 busiest Stations in New York (May-2019):</h1>
 
 <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
-  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates Top 5 busiest Stations in New York (May-2019) so we can <strong style="color:Maroon";>Narrow down our search and easy for the C0AB8EC0AB8Ecompany to place thier teams at these five stations ONLY</strong>. We can notice that during the <strong style="Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates Top 5 busiest Stations in New York (May-2019) so we can <strong style="color:Maroon;">Narrow down our search and easy for the company to place thier teams at these five stations ONLY</strong>. We can notice that during the <strong style="color:Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days</p>
 </div>
 ![Top five stations]({{ site.url }}/images/Top 5.png)
 
