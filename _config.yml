@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Bader Alafnan
-tagline:             Data Science and Machine Learning Blogs
+tagline:             Data Science and Machine Learning Blog
 url:                 http://alafnan.github.io
 paginate:            2
 baseurl:             ""
