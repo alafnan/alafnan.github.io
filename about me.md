@@ -12,6 +12,8 @@ best 25 programmers in the UK, for developing software applications in C++, JAVA
 engineering and project management experience working for Saudi Aramco in oil and gas business
 providing engineering service in oil-well technology. Currently, i am focusing on data science and machine learning. </p> </div>
 
+![Image test]({{ site.url }}/images/bv.png)
+
 ## Personal Contacts
 
 * Phone Number: +966551904294
