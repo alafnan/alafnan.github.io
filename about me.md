@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F0EAD6; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F0EDE5; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
   
   
 <p style="text-align: justify; text-justify: inter-word; color: #000000"> Hey there! My name is Bader Dalah Alafnan, I hold a master's degree in telecommunication and wireless system engineer from the University of Liverpool. A passionate and commercially aware person having. My educational
