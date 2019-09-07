@@ -66,22 +66,8 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 
 
 
-
-
-
-
-
-## Heading
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Gists via GitHub Pages
-
-Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
-
-{% gist 13f94b734a4ddb132735 gist.md %}
-
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Results:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The following figure shows the resuls of our data analysis, the peak hours and peak days of the entire month (may-2019) for all stations in <strong style="color:Blue">New York</strong>, after that we will show you the top 5 busiest stations in New York and the top 5 busiest <strong style="color: Maroon;">UNITS</strong> at the top station </p>
 
 ### Lists
 
