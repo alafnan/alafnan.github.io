@@ -29,10 +29,12 @@ Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turn
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project Approach:</h1>
 <p style="text-align: justify; text-justify: inter-word;"> The figure below shows the project approach that we followed to make the project work, starting with collecting, understanding, analysing the data and finally give solutions to the organisation. </p>
-![Image test]({{ site.url }}/images/pro1.jpg)
+![Project Approach Image]({{ site.url }}/images/pro1.jpg)
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Visualising the data:</h1>
-<p style="text-align: justify; text-justify: inter-word;"> The data was visualised using Jupyter Notebook as shown in the figure below. Notice that the data were taken from file <strong>turnstile_190511</strong>. </p>
+<p style="text-align: justify; text-justify: inter-word;"> The data was visualised using Jupyter Notebook as shown in the figure below. Notice that the data was read from file <strong>turnstile_190511</strong> on MTA website. </p>
+![Data]({{ site.url }}/images/pro1.jpg)
+
 
 ## Inline HTML elements
 
