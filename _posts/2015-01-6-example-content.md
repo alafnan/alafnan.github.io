@@ -36,7 +36,7 @@ Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turn
 ![Data]({{ site.url }}/images/pro2.jpg)
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Important codes for data cleansing:</h1>
-
+<p style="text-align: justify; text-justify: inter-word;"> The following line of codes are exteremly important to start with, firstly, the total number of entries and exsits per 4 hours which is represented by each row is calculated via shift method of the origional row and its shifted copy and the it is stored in a new column which is called <i>D_ENTRIES</i> in this code. to avoid any negative or unexpected data from the dataframe we used 0 > dataframe values <4000 limits which are obviously reasonable limits. finally, we get rid of the unnecessary data from the dataframe.</p>
 {% highlight js %}
 // Importing main libraries 
 import datetime
@@ -59,7 +59,7 @@ Train = Train[(Train.D_ENTRIES> 0) & (Train.D_ENTRIES < 4000) &
                 (Train.D_EXITS > 0) & (Train.D_EXITS < 4000)]
 // convert date and time from str to datetime64
 Train['DATE_TIME'] = pd.to_datetime(Train.DATE + Train.TIME, format='%m/%d/%Y%H:%M:%S')
-// Deleting unnecessary files from the data
+// Deleting unnecessary data from the dataframe
 Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 
 {% endhighlight %}
