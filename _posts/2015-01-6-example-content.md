@@ -74,10 +74,10 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 
 <h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Hours (May-2019):</h1>
 
-<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #6B5B95; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
   <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrate the peak hours for all stations in NEW YOURK in may 2019. We can notice that there are three main hours we can focus on which are at <strong style="Maroon;">8 AM, 12 PM</strong> and <strong style="Maroon;">4 PM</strong> because during these hours the number of visitors reaches</p>
 </div>
-
+![rush hours]({{ site.url }}/images/Rush hours.png)
 
 ### Lists
 
