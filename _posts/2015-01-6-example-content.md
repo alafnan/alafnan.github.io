@@ -111,37 +111,37 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
 ![units]({{ site.url }}/images/pro4.jpg)
 
 
-<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">All together !:</h1>
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1.5rem;">Recommendations</h1>
 
 
 <table>
   <thead>
     <tr>
-      <th>Factor</th>
-      <th>Stations</th>
-      <th>Days</th>
-      <th>Hours</th>
+      <th style="color:#000000;">Optimisation factors</th>
+      <th style="color:#000000;">Stations</th>
+      <th style="color:#000000;">Days</th>
+      <th style="color:#000000;">Hours</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-      <td>Recommended hours</td>
+      <td style="color:#000000;">Recommended hours</td>
       <td> </td>
       <td> </td>
-      <td>8:00 AM, 12:00 PM and 4:00 PM</td>
+      <td style="color:maroon;>8:00 AM, 12:00 PM, 4:00 PM</td>
     </tr>
   </tfoot>
   <tbody>
     <tr>
-      <td>Station Name</td>
-      <td>34 ST-PENN STA, GRD Central-42 ST, 34 ST-Herald SQ, 14 ST-Union SQ and 32 ST 15</td>
+      <td style="color:#000000;">Recommended Station</td>
+      <td style="color:maroon;">34 ST-PENN STA, GRD Central-42 ST, 34 ST-Herald SQ, 14 ST-Union SQ, 32 ST 15</td>
       <td> </td>
       <td> </td>
     </tr>
     <tr>
-      <td>Recommended days</td>
+      <td style="color:#000000;">Recommended days</td>
       <td> </td>
-      <td>Tuesday, Monday and Wednesday</td>
+      <td style="color:maroon;>Tuesday, Monday, Wednesday</td>
       <td> </td>
     </tr>
   </tbody>
