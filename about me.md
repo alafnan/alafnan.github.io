@@ -16,7 +16,8 @@ providing engineering service in oil-well technology. Currently, i am focusing o
 
   <div> <ul>
   <li> MSc in Telecommunications and Wirless System Engineering from University of Liverpool in 2018.</li>
-  <li> Beng in Electrical and Electronics Engineering from Manchester Metropolitan University.</li>
+  <li> BEng in Electrical and Electronics Engineering from Manchester Metropolitan University.</li>
+  <li> Tuwaiq bootcamp for data science and machine learning organised by the Saudi Federation for Cybersecurity, Programming and Drones and taugh by Metis Data Science.</li>
   <li> Winner of IBM mainframe programming contest and gained thier green badge.</li> 
   <li> Five awards given by Saudi Arabian Bureau in london for achieving outstanding results during my studies.</li>
   <li> Best graduate student at University of Liverpool.</li>
@@ -24,8 +25,16 @@ providing engineering service in oil-well technology. Currently, i am focusing o
   <li> Best final engineering project at Manchester Metropolitan University.</li>
   <li> Second best final engineering project at the University of Liverpool.</li> </ul> </div>
 
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Work Experiance:</h1>
 
-![Image test]({{ site.url }}/images/bv.png)
+ <div> <ul>
+  <li> (2018) Worked for the University of Liverpool as a student representative.</li>
+  <li> (2017) Worked for Global Invacome to design a Low Noise Amplifier system for 4G systems.</li>
+  <li> (2016) Worked for Sony UK to design a 5G Power Amplifier circuit for a cellular network system.</li>
+  <li> (2015) Worked as a supporting tutor at Manchester Metropolitan University.</li>
+  </ul> </div>
+
+![Image test]({{ site.url }}/images/bbv.png)
 
 ## Personal Contacts
 
