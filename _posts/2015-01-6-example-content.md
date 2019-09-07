@@ -128,7 +128,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
       <td style="color:#000000;">Recommended hours</td>
       <td> </td>
       <td> </td>
-      <td style="color:maroon;>8:00 AM, 12:00 PM, 4:00 PM</td>
+      <td style="color:maroon;">8:00 AM, 12:00 PM, 4:00 PM</td>
     </tr>
   </tfoot>
   <tbody>
@@ -141,7 +141,7 @@ Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
     <tr>
       <td style="color:#000000;">Recommended days</td>
       <td> </td>
-      <td style="color:maroon;>Tuesday, Monday, Wednesday</td>
+      <td style="color:maroon;">Tuesday, Monday, Wednesday</td>
       <td> </td>
     </tr>
   </tbody>
