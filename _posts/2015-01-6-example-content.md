@@ -32,11 +32,11 @@ Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turn
 ![Project Approach Image]({{ site.url }}/images/pro1.jpg)
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Visualising the data:</h1>
-<p style="text-align: justify; text-justify: inter-word;"> The data was visualised using <strong>Jupyter Notebook</strong> via Python3 syntax as shown in the figure below. The figure shows the first five rows out of a total of <i>203363</i> rows using the follwoing comman line {% highlight js %}Train.head()      // to read file Train{% endhighlight %} Notice that the data was read from file <strong>turnstile_190511</strong> on MTA website. </p>
+<p style="text-align: justify; text-justify: inter-word;"> The data was visualised using <strong>Jupyter Notebook</strong> via Python3 syntax as shown in the figure below. The figure shows the first five rows out of a total of <i style="color:Maroon;">203363</i> rows using the follwoing comman line {% highlight js %}Train.head()      // to read file Train{% endhighlight %} Notice that the data was read from file <strong>turnstile_190511</strong> on MTA website. </p>
 ![Data]({{ site.url }}/images/pro2.jpg)
 
 <h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Important codes for data cleansing:</h1>
-<p style="text-align: justify; text-justify: inter-word;"> The following line of codes are exteremly important to start with, firstly, the total number of entries and exsits per 4 hours which is represented by each row is calculated via shift method of the origional row and its shifted copy and the it is stored in a new column which is called <i style="color: #001f3f;">D_ENTRIES</i> in this code. to avoid any negative or unexpected data from the dataframe we used 0 > dataframe values <4000 limits which are obviously reasonable limits. finally, we get rid of the unnecessary data from the dataframe.</p>
+<p style="text-align: justify; text-justify: inter-word;"> The following line of codes are exteremly important to start with, firstly, the total number of entries and exsits per 4 hours which is represented by each row is calculated via shift method of the origional row and its shifted copy and the it is stored in a new column which is called <strong style="color: Maroon;">D_ENTRIES</strong> in this code. to avoid any negative or unexpected data from the dataframe we used 0 > dataframe values <4000 limits which are obviously reasonable limits. finally, we get rid of the unnecessary data from the dataframe.</p>
 {% highlight js %}
 // Importing main libraries 
 import datetime
