@@ -6,14 +6,14 @@
   <body>
 
     <div class="container content">
-      <div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #000000; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; text-align: left;" >
+      <div style="margin-bottom: 3rem; padding: 1rem;   color: #000000;   background-color: #000000; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; text-align: left;" >
       <header style="padding-top: 1rem; padding-bottom: 1rem;" >
         <h3 class="masthead-title">
           <a style:"color:#FFD700;" href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}:</small><br>
+          <small style="font-size: 80%;">{{ site.tagline }}:</small><br>
           {% for page in site.pages_list %}
           &nbsp;&nbsp;&nbsp;
-          <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+          <small style="font-size: 80%;><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
           {% endfor %}
         </h3>
       </header>
