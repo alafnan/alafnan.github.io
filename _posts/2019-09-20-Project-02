@@ -1,0 +1,198 @@
+---
+layout: post
+title: Project-01 MTA Turnstile Analysis
+---
+
+
+
+<div style="margin-bottom: 1rem;   padding: 1rem;   color: #FFFFFF;   background-color: #000000; font-family: Arial, Helvetica, sans-serif; font-size:0.9em;">
+Group Members: Bader Alafnan, Khaled Al Qahtani, Abdulrahman Alshetwi, Aiman Alghamdi and Abdulrahman Alkhthlan
+</div>
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project Overview:</h1>
+
+<p style="text-align: justify; text-justify: inter-word;"> WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As they are new and inclusive organization, they are trying to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.To this end they place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to thier gala. Where they like to solicit our engagement is to use MTA subway data, which is available freely from the city, to help them optimize the placement of thier street teams, such that they can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.</p>
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project objectives:</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F0EDE5; font-family: Arial, Helvetica, sans-serif; font-size:0.8em; text-align: left;" >
+  <ul>
+  <li>To help <strong>WomenTechWomensYes</strong> (WTWY) organisation to optimise the placement of thier street teams.</li>
+  <li>To provide (WTWY) with <strong>bussiness solutions</strong> to reduce the <strong>cost</strong> of thier advertisment project.</li>
+  <li>To provide (WTWY) with the <strong>optimum days</strong> and <strong>times</strong> at top five utilised <strong>stations</strong>.</li> 
+  <li>To provide (WTWY) with the optimum <strong>UNITS</strong> inside each of the five stations.</li>
+  <li>To provide (WTWY) with a <strong>pi chart</strong> that shows the percentage of utilised stations.</li> </ul> </div>
+
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Resources of Data from MTA:</h1>
+Click the Link: [Turnstile Data MTA Website](http://web.mta.info/developers/turnstile.html)
+
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Project Approach:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The figure below shows the project approach that we followed to make the project work, starting with collecting, understanding, analysing the data and finally give solutions to the organisation. </p>
+![Project Approach Image]({{ site.url }}/images/pro1.jpg)
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Visualising the data:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The data was visualised using <strong>Jupyter Notebook</strong> via Python3 syntax as shown in the figure below. The figure shows the first five rows out of a total of <i style="color:Maroon;">203363</i> rows using the follwoing comman line {% highlight js %}Train.head()      // to read file Train{% endhighlight %} Notice that the data was read from file <strong>turnstile_190511</strong> on MTA website. </p>
+![Data]({{ site.url }}/images/pro2.jpg)
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Important codes for data cleansing:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The following line of codes are exteremly important to start with, firstly, the total number of entries and exsits per 4 hours which is represented by each row is calculated via shift method of the origional row and its shifted copy and the it is stored in a new column which is called <strong style="color: Maroon;">D_ENTRIES</strong> in this code. to avoid any negative or unexpected data from the dataframe we used 0 > dataframe values <4000 limits which are obviously reasonable limits. finally, we get rid of the unnecessary data from the dataframe.</p>
+{% highlight js %}
+// Importing main libraries 
+import datetime
+import pandas as pd
+import collections
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn
+import os
+
+// Read the data file
+Train = pd.read_csv('turnstile_190511.txt')
+// remove spaces if there is space in the columns
+Train.columns = [column.strip() for column in list(Train.columns)]
+// Shift up one column and substract from the another 
+Train['D_ENTRIES'] = Train.ENTRIES.shift(-1)-Train.ENTRIES
+Train['D_EXITS'] = Train.EXITS.shift(-1)-Train.EXITS
+//git rid of unexpected values by estimating the max and min 
+Train = Train[(Train.D_ENTRIES> 0) & (Train.D_ENTRIES < 4000) & 
+                (Train.D_EXITS > 0) & (Train.D_EXITS < 4000)]
+// convert date and time from str to datetime64
+Train['DATE_TIME'] = pd.to_datetime(Train.DATE + Train.TIME, format='%m/%d/%Y%H:%M:%S')
+// Deleting unnecessary data from the dataframe
+Train = Train.drop(['DIVISION', 'TIME', 'DESC', 'ENTRIES', 'EXITS'], 1)
+
+{% endhighlight %}
+
+
+
+<h1 style="font-size:1.5em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Results:</h1>
+<p style="text-align: justify; text-justify: inter-word;"> The following figure shows the what you will be looking at in the results of our data analysis, the peak hours and peak days of the entire month (may-2019) for all stations in <strong style="color:Blue">New York</strong>, after that we will show you the top 5 busiest stations in New York and the top 5 busiest <strong style="color: Maroon;">UNITS</strong> at the top station. </p>
+
+![Project Approach Image]({{ site.url }}/images/pro3.jpg)
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Hours (May-2019):</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrate the peak hours for all stations in NEW YOURK in may 2019. We can notice that there are three main hours we can focus on which are at <strong style="color:Maroon;">8 AM, 12 PM</strong> and <strong style="color:Maroon;">4 PM</strong> because during these hours the number of visitors reaches.</p>
+</div>
+![rush hours]({{ site.url }}/images/Rush hours.png)
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Peak Days (May-2019):</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow illistrates the peak days for all stations in NEW YOURK in may 2019. We can notice that during the <strong style="color:Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days.</p>
+</div>
+![peak days]({{ site.url }}/images/Flow over the day.png)
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Top 5 busiest Stations in New York (May-2019):</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow shows the top 5 busiest Stations in New York (May-2019) so we can <strong style="color:Maroon;">Narrow down our search and easy for the company to place thier teams at these five stations ONLY</strong>. We can notice that during the <strong style="color:Maroon;">WEEK</strong> days the stations are packed with visitors compared to weekend days.</p>
+</div>
+![Top five stations]({{ site.url }}/images/Top 5.png)
+
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Top 4 busiest units at 34 ST-PENN STA (May-2019):</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The figure shown bellow shows the top 5 busiest <strong style="color: Maroon;">UNITS</strong> in New York (May-2019) so we can <strong style="color:Maroon;">Narrow down our search and easy for the company even further to place thier teams at these four units ONLY</strong>. </p> <i class="glyphicon glyphicon-thumbs-up"></i></div>
+![units]({{ site.url }}/images/units.png)
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;"> Recommended number of workers per station:</h1>
+
+<div style="margin-bottom: 1.2rem; padding: 1rem;   color: #000000;   background-color: #F3E0BE; font-family: Arial, Helvetica, sans-serif; font-size:0.8em;" >
+  <p style="text-align: justify; text-justify: inter-word;"> The Pi chart below shows the recommended number of workers per station. for instance, if the company want to hire 10 people to collect sign ups 34, they should hire 3 people at ST-PENN station in order to optimise thier placement of thier teams</p> <i class="glyphicon glyphicon-thumbs-up"></i></div>
+![units]({{ site.url }}/images/pro4.jpg)
+
+
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1.5rem;">Recommendations for WTWY</h1>
+
+
+<table>
+  <thead style="color:#000000; background-color: #D2C29D; border: 1px solid black;border: 1px solid black;">
+    <tr>
+      <th style = "border: 1px solid black;">Optimisation factors</th>
+      <th style = "border: 1px solid black;">Stations</th>
+      <th style = "border: 1px solid black;">Days</th>
+      <th style = "border: 1px solid black;">Hours</th>
+    </tr>
+  </thead>
+  <tfoot style ="border: 1px solid black;">
+    <tr>
+      <td style="color:#000000; background-color: #F0EAD6;border: 1px solid black;">Recommended hours</td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;"> </td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;"> </td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;">8:00 AM, 12:00 PM, 4:00 PM</td>
+    </tr>
+  </tfoot>
+  <tbody style ="border: 1px solid black;">
+    <tr>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;">Recommended Station</td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;">34 ST-PENN STA, GRD Central-42 ST, 34 ST-Herald SQ, 14 ST-Union SQ, 32 ST 15</td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;"> </td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;"> </td>
+    </tr>
+    <tr>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;">Recommended days</td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;"> </td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;">Tuesday, Monday, Wednesday</td>
+      <td style="color:#000000; background-color: #F0EAD6;border:1px solid black;"> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="margin-bottom: 1.2rem; padding: 1rem" >
+<h1 style="font-size:1em; color:#000000; margin-top: 2rem; margin-bottom: 1rem;">Look at the stations using google map!</h1>
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKHCCDLG_CnNTFEPWhTFUryHcCfkapwyw&callback=myMap"></script>
+</div>
+
+### Read More:
+* [About me](https://alafnan.github.io/about%20me/)
+* [Project Lists](https://alafnan.github.io/archive/)
+
+### Useful links:
+
+* [Saudi Federation for Cybersecurity, Programming and Drones](https://safcsp.org.sa/en.html)
+* [Metis: Data Science Training](https://www.thisismetis.com/)
+
+
+### My personal websites  
+
+* [Linkedin](https://www.linkedin.com/in/bader-alafnan-353480122/)
+* [Research Gate](https://www.researchgate.net/profile/Bader_Alafnan)
+* [Twitter](https://twitter.com/BaderAlafnan1)
+
+
+
+[^fn-sample_footnote]: Handy! Now click the return link to go back.
